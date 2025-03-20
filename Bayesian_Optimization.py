@@ -95,7 +95,7 @@ def objective(R, L, t_s, t_h, t_n):
         os.remove("results.txt")
 
     cmd = [r"C:\SIMULIA\Commands\abaqus.bat",
-        "cae", "noGUI=runAbaqus.py", "--",
+        "cae", "noGUI=Run_Abaqus.py", "--",
         str(R), str(L), str(t_s), str(t_h), str(t_n)]
 
     try:
