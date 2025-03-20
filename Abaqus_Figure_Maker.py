@@ -29,7 +29,7 @@ R = 978.0 # Endcap radius
 t1 = 207.0 # shell thickness 
 t2 = 115.0 # End cap thickness
 t3 = 99.0 # Nozzle thickness
-y_nozzle_position = 400.0 # Nozzle y-position
+y_nozzle_position = 150.0 # Nozzle y-position
 nozzle_radius = 150.0 # Nozzle radius
 
 # Make new abaqus model (remove the need for new model database step)
