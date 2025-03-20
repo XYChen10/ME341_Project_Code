@@ -53,7 +53,7 @@ def objective_function(L, R, t_s, t_h, t_n):
 
     # Call Abaqus to compute
     cmd = [r"C:\SIMULIA\Commands\abaqus.bat", # full path to abaqus.bat
-    "cae","noGUI=runAbaqus.py","--",
+    "cae","noGUI=Run_Abaqus.py","--",
     str(R),
     str(L),
     str(t_s),
