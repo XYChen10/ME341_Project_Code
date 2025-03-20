@@ -33,6 +33,10 @@ For Plot_Maker.py:
 For Plot_Maker.m:
 - Same idea as in Plot_Maker.py
 
+K-Fold_Cross_Validation.py:
+- Same idea as in Plot_Maker.py
+- Change values for n_cluster and n_folds as desired
+
 If you want make multiple data sets, change the optimization_data.csv file name after each ...
 completed run (the program rewrites the same csv file each run).
 
