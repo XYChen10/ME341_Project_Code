@@ -35,7 +35,7 @@ For Plot_Maker.m:
 
 K-Fold_Cross_Validation.py:
 - Same idea as in Plot_Maker.py
-- Change values for n_cluster and n_folds as desired
+- Change values for n_clusters and n_splits as desired (doesn't work for massive clusters or splits/folds)
 
 If you want make multiple data sets, change the optimization_data.csv file name after each ...
 completed run (the program rewrites the same csv file each run).
